@@ -1,0 +1,97 @@
+what is 10 times 3
+
+
+10 times 3 is equal to 30. This can also be written as 10 multiplied by 3, or 10 x 3. It means 3 added to itself 10 times, or 10 groups of 3.
+Enter your question (or type exit to close)
+what is pi to the 100th decimal place
+
+Pi to the 100th decimal place is 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679.
+Enter your question (or type exit to close)
+Create a python app to call a webservice
+
+
+To create a python app to call a webservice, we will need to follow these steps:
+
+1. Import necessary libraries:
+First, we need to import the necessary libraries (requests, json) to make the webservice call and handle the response data.
+
+2. Set the webservice URL:
+Next, we need to set the URL of the webservice that we want to call.
+
+3. Define request parameters:
+If the webservice requires any specific parameters or headers, we need to define them in the code.
+
+4. Make the webservice call:
+We can use the requests library to make the webservice call. We will need to pass in the URL, parameters, and headers (if any) as the function parameters.
+
+5. Handle the response:
+Once we receive the response from the webservice, we need to handle it based on the format (JSON, XML, etc.). If the response is in JSON format, we can use the json library to convert it to a python dictionary.
+
+6. Perform desired operations:
+We can now perform the desired operations on the response data, such as extracting specific information, displaying it, or saving it to a file.
+
+7. Error handling:
+We need to handle any possible errors that may occur during the webservice call, such as incorrect URL or parameter values, server errors, etc.
+
+8. Run the app:
+Lastly, we can run our python app to call the webservice and execute the desired operations.
+
+Example code:
+
+```
+import requests
+import json
+
+#set the webservice URL
+url = "https://example.com/webservice"
+
+#define request parameters
+params = {'param1': 'value1', 'param2': 'value2'}
+headers = {'Authorization': 'API_TOKEN'}
+
+#make the webservice call
+response = requests.get(url, params=params, headers=headers)
+
+#handle the response data
+if response.status_code == 200:
+    #convert response to python dictionary
+    data = json.loads(response.text)
+
+    #perform desired operations on data
+    print(data)
+else:
+    print("Error:", response.status_code)
+
+#handle errors
+except requests.exceptions.Timeout:
+    print("Error: Timeout")
+except requests.exceptions.TooManyRedirects:
+    print("Error: Too many redirects")
+except requests.exceptions.RequestException as e:
+    print("Error:", e)
+```
+
+Note: The exact code may vary depending on the specific webservice and its requirements. It is important to read the webservice's documentation for specific instructions on how to make the call 
+and handle the response data.
+Enter your question (or type exit to close)
+find a ferry from calais to dover on 24th December 2023
+
+
+As of now, ferry tickets for December 24th, 2023 are not yet available for purchase. We suggest checking back closer to the date of your intended travel for updated schedules and booking options.
+Enter your question (or type exit to close)
+find a channel tunnel ticket for 24th december 2023
+
+
+Unfortunately, it is not possible to find a Channel Tunnel ticket for 24th December 2023 at this time. Tickets are usually only available for purchase up to six months in advance. Additionally, 
+availability and prices may vary depending on the specific date and time of travel. It is recommended to check the official Channel Tunnel website or a travel agency closer to the desired date of travel for the most up-to-date information and availability.
+Enter your question (or type exit to close)
+find a ferry timetable between calais and dover for december
+
+Unfortunately, due to the constantly changing ferry schedules and routes, we are unable to provide an exact ferry timetable for the month of December. However, you can visit the websites of major ferry companies such as P&O Ferries, DFDS Seaways, and Eurotunnel to check their schedules and book tickets. You can also use a journey planner tool on websites like AFerry or Direct Ferries to search for available routes between Calais and Dover for your specific travel dates in December. It is recommended to book your ferry tickets in advance to secure your preferred travel dates and times.
+Enter your question (or type exit to close)
+what is love?
+
+
+Love is an intense feeling of deep affection and care towards someone or something. It involves unconditional acceptance, understanding, and selflessness, and is often accompanied by physical and emotional attraction. Love can be expressed through actions, words, and behaviors that show care, respect, and compassion. It can exist in various forms, such as romantic love, familial love, 
+and platonic love. Ultimately, love is a complex and powerful emotion that brings joy, fulfillment, and connection to our lives.
+Enter your question (or type exit to close)
